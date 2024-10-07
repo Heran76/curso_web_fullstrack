@@ -20,3 +20,7 @@ let nula = null;          //null;
 
 let fruta =["fresa", "Sandia", "naranja"];  //array o arreglo se define con corchete;
 let heroe ={nombre: "Batman", universo:"DC"} // obejetos se abre y cierran con llaves y van clave : valor
+
+// operador typeof
+
+console.log(typeof(anio)); //typeof para ver el tipo de dato que es
