@@ -1,20 +1,10 @@
-//Operador Aritmético (matemáticos);
-let num1 = 40;
-let num2 = 2;
+// Asignación 
+let numero = 17 // con el igual asignamos el valor 17
 
-let suma = num1 + num2 ;
-let resta = num1 - num2;
-let multi = num1 * num2;
-let division = num1 / num2;
-let resto = num1 % num2;
-let potencia = num1 ** 2;
+// numero = 17 + 3 es igual a 20
 
-console.log("Suma = " + suma);
-console.log("Resta = " + resta);
-console.log("Multiplicar = " + multi);
-console.log("division = "+ division);
-console.log("resto = "+ resto);
-console.log("Potencia = "+ potencia);
-
-
-
+numero += 3; // con += sumamos 3 es igual que arriba
+numero -= 3; //restamos 3
+numero *= 3; //multipica por 3;
+numero /= 3; // divide por 3;
+console.log(numero); //nos da 20
