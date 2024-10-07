@@ -3,7 +3,7 @@ Desarrollo web con JavaScript, JSON, Node, TypeScript, Angular, MEAN y Astro
 
 
 ## 🚀 Javascript.
-de 0 hasta la ultima version ECMAScript 2024 , la versión 15 y actual, se lanzó en junio de 2024.
+De 0 hasta la ultima version ECMAScript 2024 , la versión 15 y actual, se lanzó en junio de 2024.
 
 ## Documentacion
 
