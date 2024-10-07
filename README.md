@@ -7,4 +7,4 @@ De 0 hasta la ultima version ECMAScript 2024 , la versión 15 y actual, se lanz�
 
 ## Documentación
 
-`variables` `tipos de Datos` `Operadores` `Condicionales` `Bucles` `Funciones y métodos` `Arrays`
+`Variables` `Tipos de Datos` `Operadores` `Condicionales` `Bucles` `Funciones y métodos` `Arrays`
