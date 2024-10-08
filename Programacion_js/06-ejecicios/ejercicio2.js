@@ -6,7 +6,7 @@ Tenemos 7 cajas con 8 cookies rellenas de chocoalate cada una
 */
 
 let caja = 7;
-let cookies = 8;
+const cookies = 8;
 let coookiesTotal= caja * cookies;
 
 console.log("En total tenemos "+coookiesTotal+" cookies")
