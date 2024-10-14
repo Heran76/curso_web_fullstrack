@@ -16,5 +16,7 @@ switch(genero){
         break;
      case "rap":
         alert("Has elegido rap");
-        break;    
+        break; 
+     default:
+        alert("No has escogido un genero");      
 }
