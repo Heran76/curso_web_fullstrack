@@ -51,3 +51,8 @@ dispositivos.push("MACETA4");
 let dispositivosconE = dispositivos.filter(dispositivo =>dispositivos.includes("E"));
     
     console.log(dispositivosconE);
+
+//Reduce
+
+let reducir = dispositivos.reduce((total, actual)=> total + ","+actual);
+console.log(reducir);
