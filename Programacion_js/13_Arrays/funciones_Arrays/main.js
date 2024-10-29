@@ -2,7 +2,7 @@
 Funciones para Arrays
 */
 
-const { displayPartsToString } = require("typescript");
+//const { displayPartsToString } = require("typescript");
 
 //Crear una array
 
@@ -56,3 +56,39 @@ let dispositivosconE = dispositivos.filter(dispositivo =>dispositivos.includes("
 
 let reducir = dispositivos.reduce((total, actual)=> total + ","+actual);
 console.log(reducir);
+
+//ordenar
+
+//dispositivos = ["almanaque","cenicero","batidora","freidora","berenjena","cocina",]
+dispositivos.sort();
+console.log(dispositivos);
+
+//Revetir
+
+dispositivos.reverse();
+console.log(dispositivos);
+
+//convinar arrays
+
+let numeros =[2,53,42,5,8]
+
+let union = dispositivos.concat(numeros);
+console.log(union);
+
+//Convertir en cadena
+
+let etiquetas = dispositivos.join(", ");
+console.log(etiquetas)
+
+//copiar porion array
+let misGadgestsFavs = dispositivos.slice(1,3);
+console.log(misGadgestsFavs);
+
+//Busquedas
+let buscar = dispositivos.find(dispositivo => dispositivo.length >5);
+console.log(buscar);
+
+//buscar indice
+
+let buscarIndice = dispositivos.findIndex(dispositivo => dispositivo.length > 7);
+console.log(buscarIndice); 
