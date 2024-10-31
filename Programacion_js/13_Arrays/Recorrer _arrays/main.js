@@ -34,3 +34,6 @@ actores.map((actor, indice)=>{
     console.log(indice,actor);
 })
 
+
+
+
