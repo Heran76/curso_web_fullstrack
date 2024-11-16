@@ -29,12 +29,10 @@ for(let i = 0; i < articulos.length; i++){
         articulos[i].classList.add("articuloUltimo");
         articulos[i].innerHTML = "<h2>Sigue leyendo mas cosas en AntonioHeredia</h2>";
     }
-
-
 }
 
+//getElementByTagName
 
-
-
-
-//getElementByTag
+let etiquetasArticulos = document.getElementsByTagName("article");
+etiquetasArticulos[2].style.backgroundColor="green"
+etiquetasArticulos[2].style.color="white"
