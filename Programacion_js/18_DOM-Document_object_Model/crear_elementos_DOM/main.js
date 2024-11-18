@@ -9,7 +9,7 @@ tarjeta.classList.add("destacar");
 //quitar clase
 tarjeta.classList.remove("remarcar");
 
-//togle quita o pon segun si exite o no
+//togle quitar o pon segun si exite o no
 tarjeta.classList.toggle("small")
 
 //añadir elemento
