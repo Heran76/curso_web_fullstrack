@@ -13,7 +13,7 @@ tarjeta.classList.remove("remarcar");
 tarjeta.classList.toggle("small")
 
 //añadir elemento
-
+let titulo
 const titular = document.createElement("h2");
 titular.textContent="Hola caracola";
 tarjeta.append(titular);
