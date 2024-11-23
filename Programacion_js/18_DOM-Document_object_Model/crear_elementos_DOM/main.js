@@ -16,6 +16,7 @@ tarjeta.classList.toggle("small")
 let titulo
 const titular = document.createElement("h2");
 titular.textContent="Hola caracola";
+
 tarjeta.append(titular);
 
 tarjeta.insertBefore(titular, tarjeta.firstChild);
