@@ -10,3 +10,8 @@ campoTexto.addEventListener("keyup",(event)=>{
 console.warn("Has soltado la tecla: "+event.key);
 })
 
+//keypress
+campoTexto.addEventListener("keypress",(event)=>{
+    console.error("Mantienes pulsada la tecla"+event.key)
+})
+
