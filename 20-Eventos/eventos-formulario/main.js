@@ -1,5 +1,6 @@
 //Eventos teclado.
 
+
 let superformulario = document.querySelector("#superformulario");
 superformulario.addEventListener("submit",(event)=>{
     event.preventDefault();
