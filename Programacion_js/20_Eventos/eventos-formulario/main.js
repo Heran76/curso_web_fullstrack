@@ -19,5 +19,13 @@ inputNombre.addEventListener("input", ()=>{
 
 let campoEmail = document.querySelector("#email")
 campoEmail.addEventListener("focus",()=>{
-    console.log("Acabas de entrar al campo de email Chaval")
+    console.log("Acabas de entrar al campo de email Chaval");
+    campoEmail.style.border = "2px solid green";
+    campoEmail.style.outline = 'none';
 })
+
+//evento blur
+campoEmail.addEventListener("blur",()=>{
+    console.log("has salidodelfoco Chaval")
+})
+
