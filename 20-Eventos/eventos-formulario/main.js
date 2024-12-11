@@ -15,3 +15,9 @@ inputNombre.addEventListener("input", ()=>{
     console.log("El usuario a escrito "+inputNombre.value)
 })
 
+//Evento Focus
+
+let campoEmail = document.querySelector("#email")
+campoEmail.addEventListener("focus",()=>{
+    console.log("Acabas de entrar al campo de email Chaval")
+})
