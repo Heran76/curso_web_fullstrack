@@ -1,3 +1,104 @@
-body{
-    background-color:red;
+/* General */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0; /* Fondo claro para neumorfismo */
+    font-family: Arial, sans-serif;
+}
+
+
+    h1 {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding: 10px 20px; /* Espacio interno */
+        text-align: center;
+        color: #7b6868;
+        background-color: #e0e0e0; /* Fondo neutro */
+        border-radius: 10px; /* Bordes redondeados */
+        box-shadow: 
+            5px 5px 10px #a3b1c6, /* Sombra inferior */
+            -5px -5px 10px #ffffff; /* Sombra superior */
+        font-size: 2rem; /* Tamaño de fuente */
+        font-weight: bold;
+        display: inline-block; /* Ajusta el tamaño al contenido */
+    }
+
+
+/* Contenedor */
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Separación entre elementos */
+}
+
+/* Semáforo */
+.semaforo {
+    width: 70px;
+    background: #e0e0e0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 
+        8px 8px 15px #b8b8b8, 
+        -8px -8px 15px #ffffff; /* Sombras para el efecto */
+}
+
+.luz {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #e0e0e0; /* Color base */
+    border: 5px solid #d1d1d1;
+    box-shadow: 
+        inset 8px 8px 15px #b8b8b8, 
+        inset -8px -8px 15px #ffffff; /* Sombras internas para efecto cóncavo */
+    margin-bottom: 10px;
+}
+
+.rojo.activa {
+    background-color: #ff4d4d; /* Color rojo brillante */
+    box-shadow: 
+        0 0 10px #ff4d4d, 
+        0 0 20px #ff4d4d; /* Efecto de brillo */
+}
+
+.amarillo.activa {
+    background-color: #ffdb4d; /* Color amarillo brillante */
+    box-shadow: 
+        0 0 10px #ffdb4d, 
+        0 0 20px #ffdb4d;
+}
+
+.verde.activa {
+    background-color: #4dff88; /* Color verde brillante */
+    box-shadow: 
+        0 0 10px #4dff88, 
+        0 0 20px #4dff88;
+}
+
+/* Botón estilo Neumorfismo */
+#btnsemaforo {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #333;
+    background: #e0e0e0;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 
+        5px 5px 10px #b8b8b8, 
+        -5px -5px 10px #ffffff;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+}
+
+#btnsemaforo:active {
+    box-shadow: 
+        inset 5px 5px 10px #b8b8b8, 
+        inset -5px -5px 10px #ffffff; /* Efecto presionado */
 }
