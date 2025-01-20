@@ -1,5 +1,3 @@
-
-
 //Json javascript pbejct notations
 let palaDePadel = {
     nombre: "Metalbone",
