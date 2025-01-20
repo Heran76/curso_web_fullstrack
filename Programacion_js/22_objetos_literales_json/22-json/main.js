@@ -7,8 +7,6 @@ let palaDePadel = {
     forma: "Diamante",
     dureza: "Media"
 };
-
-
 let palaDePadelJSON = JSON.stringify(palaDePadel)
 console.log(palaDePadel)
 console.log(palaDePadelJSON)
