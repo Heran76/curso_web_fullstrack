@@ -4,19 +4,18 @@ class Gato {
     constructor(){
         //Propiedades
         this.nombre = "Bella";
-        this.raza = "Saimino";
-        this.color= "Marron"
-    }  
-    //Métodos ( acciones)
-        maullar(){
-            console.log(`${this.nombre} dice: Miau`)
-        }
+        this.raza = "Michu";
+        this.color= "Marron";
+    }
+    //Métodos (acciones)
         saltar(){
+            console.log(`${this.nombre} dice Miau`);
+        }
+        maullar(){
             console.log(`${this.nombre} ha saltado`)
         }
 }
-
 let myGato = new Gato();
-console.log(myGato.raza);
+console.log(myGato);
 myGato.maullar();
-myGato.saltar()
+myGato.saltar();
