@@ -26,7 +26,8 @@ console.log(Math.abs(-29-9))
 console.log(Math.pow(7,2));
 //raiz
 console.log(Math.sqrt(7))
-
 //minimo y maximo
 console.log(Math.max(1,7,8,9,76,42))
 console.log(Math.min(1,2,5,8))
+
+
