@@ -26,4 +26,8 @@ console.log(animalJson)
 //Eliminar elemento
 localStorage.removeItem(animal);
 
+//Vaciar local Storoge
+document.querySelector("#vaciar").addEventListener("click", ()=>{
+    localStorage.clear()
+})
 
