@@ -17,4 +17,13 @@ let animal = {
     color : "Gris",
 }
 
-localStorage.getItem("animal", JSON.stringify(animal))
+localStorage.setItem("animal", JSON.stringify(animal));
+
+//Recuperar objeto
+let animalJson = JSON.parse(localStorage.getItem("animal"))
+console.log(animalJson)
+
+//Eliminar elemento
+localStorage.removeItem(animal);
+
+
