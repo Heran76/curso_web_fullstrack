@@ -23,11 +23,22 @@ Tareeas :
 function guardar(){
     //Seleccionar la caja de texto y sacar su valor
 
+    let titulo = document.querySelector("#titulo").value;
+   //validacion
+
+   if(titulo.trim() === ""){
+    alert("Por favor, mete el titulo de la pelicula");
+    return false;
+   }
+
     //Conseguir la fecha actual
-
+   const fecha = new Date();
+   const fechaActual = fecha.toLocaleDateString()+" "+fecha.toLocaleTimeString();
+ 
     //Generar un numero aleatorio para la popularidad
-
-    //Crear objeto pelicula
+   let popularidad = Math.floor(Math.random()*100)+1;
+   console.log(popularidad)
+ //Crear objeto pelicula
 
     //Sacar todas las peliculas (array de objetos)
 
