@@ -20,3 +20,30 @@ Tareeas :
 
 */
 
+function guardar(){
+    //Seleccionar la caja de texto y sacar su valor
+
+    //Conseguir la fecha actual
+
+    //Generar un numero aleatorio para la popularidad
+
+    //Crear objeto pelicula
+
+    //Sacar todas las peliculas (array de objetos)
+
+    //Añadir el array la nueva peli
+
+    //Guardar todo en el local strorage
+
+    //limpiar el campo de texto
+
+    //Mostrar las peliculas
+}
+
+let formulario = document.querySelector("#formulario");
+
+formulario.addEventListener("submit", (e)=>{
+    e.preventDefault();
+    guardar();
+})
+
