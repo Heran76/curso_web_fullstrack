@@ -19,11 +19,14 @@ Tareeas :
  -Ejercicio 43 : Función para eliminar peliculas.
 
 */
-
+function mostrar(){
+    console.log("Mostrar peliculas!!")
+}
 function guardar(){
     //Seleccionar la caja de texto y sacar su valor
 
-    let titulo = document.querySelector("#titulo").value;
+    let campoTitulo = document.querySelector("#titulo");
+    let titulo = campoTitulo.value;
    //validacion
 
    if(titulo.trim() === ""){
@@ -53,11 +56,17 @@ let pelicula = {
   }
  //Añadir el array la nueva peli
 
-    //Guardar todo en el local strorage
+ pelisGuardadas.push(pelicula);
 
+//Guardar todo en el local strorage
+localStorage.setItem("peliculas",JSON.stringify(pelisGuardadas));
     //limpiar el campo de texto
-
+campoTitulo.value = " ";
     //Mostrar las peliculas
+ mostrar();   
+
+//opcional buenas practicas
+ return true;  
 }
 
 let formulario = document.querySelector("#formulario");
