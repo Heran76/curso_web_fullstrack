@@ -36,8 +36,9 @@ function guardar(){
    const fechaActual = fecha.toLocaleDateString()+" "+fecha.toLocaleTimeString();
  
     //Generar un numero aleatorio para la popularidad
-   let popularidad = Math.floor(Math.random()*100)+1;
-   console.log(popularidad)
+    
+    let popularidad = Math.floor(Math.random()*100)+1;
+    console.log(popularidad)
  //Crear objeto pelicula
 
     //Sacar todas las peliculas (array de objetos)
