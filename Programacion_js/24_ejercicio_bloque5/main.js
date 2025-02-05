@@ -38,12 +38,20 @@ function guardar(){
     //Generar un numero aleatorio para la popularidad
     
     let popularidad = Math.floor(Math.random()*100)+1;
-    console.log(popularidad)
+   
  //Crear objeto pelicula
 
-    //Sacar todas las peliculas (array de objetos)
-
-    //Añadir el array la nueva peli
+let pelicula = {
+    titulo,
+    fecha : fechaActual,
+    popularidad
+}
+  //Sacar todas las peliculas (array de objetos)
+  let pelisGuardadas = JSON.parse(localStorage.getItem("peliculas"));
+  if(!pelisGuardadas){
+    pelisGuardadas = [];
+  }
+ //Añadir el array la nueva peli
 
     //Guardar todo en el local strorage
 
