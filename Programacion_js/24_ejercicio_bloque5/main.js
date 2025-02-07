@@ -190,6 +190,7 @@ function eliminar(indice) {
     mostrar();
 }
 
+
 // Capturar el formulario y escuchar el evento submit
 let formulario = document.querySelector("#formulario");
 formulario.addEventListener("submit", (e) => {
