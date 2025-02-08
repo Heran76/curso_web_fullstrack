@@ -197,7 +197,6 @@ formulario.addEventListener("submit", (e) => {
     e.preventDefault();
     guardar();
 });
-
 // Cargar las películas al abrir la web
 mostrar();
 
