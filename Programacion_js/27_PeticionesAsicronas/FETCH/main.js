@@ -13,7 +13,6 @@ fetch("https://reqres.in/api/users/"+idUser)
   .catch(error =>{
     console.log("Error al pedir los datos del servidor", error)
   });
-
   function mostrarUsuario(user){
     let caja = document.querySelector("#user");
     caja.innerHTML = `
