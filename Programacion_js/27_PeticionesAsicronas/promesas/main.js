@@ -1,12 +1,28 @@
 //Promesas
 
 let miPromesa = new Promise((resolve, reject)=>{
-    let correcto = true;
+    setTimeout(()=>{
+        let correcto = true;
     if(correcto){
-        resolve("la promesa se ha cumplido!!")
+        let miObjeto = {
+            nombre : "Rider Republic",
+            categoria: "Conducción",
+            anio: 2021
+        };
+        
+        resolve("miObjeto")
     }else{
         reject("No se ha cumplido la promesa :(")
     }
-});
+},3500);
+    });
+    
+    
 
-console.log(miPromesa)
+miPromesa
+ .then(resultado =>{
+    console.warn(resultado);
+ })
+ .catch(error =>{
+    console.warn("Error: ",error);
+ });
