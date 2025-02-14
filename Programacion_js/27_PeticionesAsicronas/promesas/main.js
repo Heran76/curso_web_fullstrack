@@ -26,3 +26,15 @@ miPromesa
  .catch(error =>{
     console.warn("Error: ",error);
  });
+ // Promesas encandenadas
+ function serviPizza(){
+
+ }
+
+ function servirHamburguesa(){
+
+ }
+
+ function servirSolomilloSalsaAcitunas (){
+
+ }
