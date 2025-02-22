@@ -178,6 +178,8 @@ ul{
     color: var(--color-link);
     transition: all 300ms linear;
 }
+
+
 .article__btn:hover{
     background-color: var(--color-light);
     
