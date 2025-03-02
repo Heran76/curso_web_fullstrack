@@ -1,0 +1,30 @@
+@media (max-width: 956px){
+  
+   .layout{
+    
+    margin-right: 0;
+    grid-template-areas:
+    "Header header"
+    "slider slider"
+    "main main"
+    "aside aside" ;
+   
+   }
+
+   .layout_aside{
+    margin-top: 4rem;
+   }
+
+   .header__container-img{
+    width: 100%;
+   }
+   .header__img{
+    width: 100%;
+}
+
+.aside__form,
+.login_submit{
+    width: 65%;
+}
+
+}
