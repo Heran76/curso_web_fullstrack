@@ -12,9 +12,12 @@
     "slider slider"
     "main main"
     "aside aside" ;
+    grid-template-columns: 1%;
    
    }
-
+   .layout__articles{
+    margin-right: 0;
+   }
    .layout_aside{
     margin-top: 4rem;
    }
@@ -46,3 +49,34 @@
         height: 30rem;
     }
 }
+
+@media (max-width: 500px){
+    .logo__text{
+        font-size: 3,5rem;
+    }
+    .layout__slider{
+        height: 22rem;
+    }
+    .login__form-group,
+    .login_submit{
+        width: 100%;
+    }
+    .footer{
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 400px){
+    .logo__text{
+        font-size: 2.5rem;
+    }
+    .layout__slider{
+        height: 15rem;
+    }
+    .footer{
+       font-size: 1.4rem;
+    }
+}
+
+
