@@ -173,6 +173,7 @@ ul{
     border: none;
     color: var(--color-link);
     transition: all 300ms linear;
+    text-align: center;
 }
 
 
