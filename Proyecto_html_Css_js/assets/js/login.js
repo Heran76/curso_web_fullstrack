@@ -55,4 +55,5 @@ btnLogout.addEventListener("click", () => {
 });
 
 // Cargar el usuario al cargar la página
-getUser();
+
+getUser();gi
