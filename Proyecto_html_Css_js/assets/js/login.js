@@ -7,6 +7,7 @@ let loginName = document.querySelector(".data__name");
 let btnLogout = document.querySelector(".data__logout");
 
 // Función para manejar el evento de submit del formulario
+
 loginForm.addEventListener("submit", (e) => {
     e.preventDefault();
     alert("Hemos entrado");
