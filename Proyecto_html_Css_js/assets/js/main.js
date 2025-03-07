@@ -1,3 +1,4 @@
+
 //scroll all
 window.addEventListener("DOMContentLoaded", ()=>{
     let btnTop = document.querySelector(".footer__top");
