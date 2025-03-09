@@ -139,7 +139,8 @@ ul{
 
 
 
-.layout__articles{
+.layout__articles,
+.layout__main{
     grid-area:main;
     margin-right:  7rem;
     display: flex;
