@@ -5,6 +5,17 @@ let inputPassword = document.querySelector("#pass"); // Cambiado a #pass
 let asideData = document.querySelector(".aside__data");
 let loginName = document.querySelector(".data__name");
 let btnLogout = document.querySelector(".data__logout");
+// Función para obtener y mostrar el usuario
+let getUser = () => {
+    let myUser = localStorage.getItem("user");
+
+    if (myUser) {
+        let identity = JSON.parse(myUser);
+        loginName.innerHTML = identity.name;
+        loginForm.classList.add("aside__login--hide"); // Asegúrate de que esta clase exista en tu CSS
+        asideData.classList.remove("aside__data--hide");
+    }
+};
 
 // Función para manejar el evento de submit del formulario
 
@@ -35,17 +46,6 @@ loginForm.addEventListener("submit", (e) => {
     }
 });
 
-// Función para obtener y mostrar el usuario
-let getUser = () => {
-    let myUser = localStorage.getItem("user");
-
-    if (myUser) {
-        let identity = JSON.parse(myUser);
-        loginName.innerHTML = identity.name;
-        loginForm.classList.add("aside__login--hide"); // Asegúrate de que esta clase exista en tu CSS
-        asideData.classList.remove("aside__data--hide");
-    }
-};
 
 // Función para cerrar sesión
 btnLogout.addEventListener("click", () => {
@@ -56,6 +56,12 @@ btnLogout.addEventListener("click", () => {
 });
 
 // Cargar el usuario al cargar la página
-
-
 getUser()
+
+//logout
+btnLogout.addEventListener("clicl", ()=>{
+      localStorage.clear();
+      loginForm.classList.remove("aside__login--hide");
+      asideData.classList.add("aside__data--hide");
+
+});
