@@ -362,3 +362,13 @@ ul{
 .accordion__collapse--open .fa-chevron-up{
     opacity: 1;
 }
+.main__clock{
+    width: 50%;
+    border: 5px dashed var(--bg-nav);
+}
+
+.clock__time{
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+}
