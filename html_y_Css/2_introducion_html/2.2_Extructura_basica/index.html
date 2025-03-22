@@ -1,0 +1,76 @@
+<!-- 
+ Explicación de las partes principales:
+<!DOCTYPE html>: Declara el tipo de documento como HTML5.
+
+<html lang="es">: Define el inicio del documento HTML y especifica el idioma (en este caso, español).
+
+<head>: Contiene metadatos sobre el documento, como el conjunto de caracteres, la configuración de la vista, el título de la página y enlaces a recursos externos como hojas de estilo y scripts.
+
+<meta charset="UTF-8">: Especifica la codificación de caracteres como UTF-8.
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">: Asegura que la página sea responsive.
+
+<title>: Define el título de la página que aparece en la pestaña del navegador.
+
+<link rel="stylesheet" href="styles.css">: Enlaza una hoja de estilo CSS externa.
+
+<script src="script.js" defer></script>: Enlaza un archivo JavaScript externo, con el atributo defer para que se ejecute después de que la página haya terminado de cargarse.
+
+<body>: Contiene el contenido visible de la página.
+
+<header>: Define el encabezado de la página, que suele incluir el título y la navegación principal.
+
+<nav>: Contiene los enlaces de navegación.
+
+<main>: Es el contenido principal de la página.
+
+<section>: Define una sección dentro del contenido principal.
+
+<footer>: Define el pie de página, que suele incluir información de derechos de autor y enlaces adicionales.
+
+Este esqueleto es un punto de partida básico que puedes expandir y modificar según tus necesidades.
+
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Título del Documento</title>
+    <!-- Enlaces a hojas de estilo CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Scripts JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Contenido de la página -->
+    <header>
+        <h1>Encabezado de la Página</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Sección 1</h2>
+            <p>Contenido de la sección 1.</p>
+        </section>
+
+        <section>
+            <h2>Sección 2</h2>
+            <p>Contenido de la sección 2.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Derechos de autor &copy; 2023 - Nombre de la Empresa</p>
+    </footer>
+</body>
+</html>
