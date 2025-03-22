@@ -47,6 +47,38 @@
         
       <main class="layout__main">
        <!-- Aqui va el formulario-->
+        <h2 class="main__title">Contacto</h2>
+        <form class="main__contact">
+             
+            <div class="contact__group">
+                <label class="contact__label" for="name">Nombre</label>
+                <input type="text" name="name" id="name" class="contact__input">
+             </div>
+
+             <div class="contact__group">
+                <label class="contact__label" for="surname">Apellidos</label>
+                <input type="text" name="surname" id="surname" class="contact__input">
+             </div>
+
+             <div class="contact__group">
+                <label class="contact__label" for="email">Email</label>
+                <input type="email" name="email" id="email" class="contact__input">
+             </div>
+
+             <div class="contact__group">
+                <label class="contact__label" for="gender">Género</label>
+                <select name="gender" id="gender" class="contact__select">
+                    <option class="select__option" value="Femenino">femenino</option>
+                    <option class="select__option" value="Masculino">Masculino</option>
+                    <option class="select__option" value="Binario">Binario</option>
+
+                </select>
+             </div>
+
+
+        
+            </form>
+
       </main>
         
         <aside class="layout_aside">
