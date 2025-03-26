@@ -14,4 +14,6 @@ setInterval(()=>{
 
     clockTime.innerHTML = `${hours}:${mins}:${seconds}`;
 
-},1000)
+
+
+},1100)
