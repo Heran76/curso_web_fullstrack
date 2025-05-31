@@ -1,1 +1,1 @@
-alert("Hello World 2025")
+alert("Hello World")
