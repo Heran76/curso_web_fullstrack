@@ -7,7 +7,6 @@ setInterval(()=>{
     let mins = myDate.getMinutes();
     let seconds = myDate.getSeconds();
 
-    
     if(hours < 10) hours = '0' + hours;
     if(mins < 10) mins ='0' + mins;
     if(mins < 10) seconds= '0'+seconds;
