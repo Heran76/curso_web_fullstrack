@@ -19,33 +19,33 @@ window.addEventListener("load", () => {
         errorMessage: "El nombre es demasiado largo"
      }
      
-     ]);
-      .addField("#surname", [  
+     ])
+     .addField("#surname", [  
      {
         rule: "required",
-        errorMessage: "Los apellidos son obligatorio"
+        errorMessage: "Los apellidos son obligatorios"
      },
      {
         rule: "minLength",  
         value: 3,
-        errorMessage: "Los apellidos son muy corto"
+        errorMessage: "Los apellidos son muy cortos"
      },
      {
         rule: "maxLength",  
         value: 15,
-        errorMessage: "Los apellidos son demasiado largo"
+        errorMessage: "Los apellidos son demasiado largos"
      }
      
-     ]);
-      .addField("#email", [  
+     ])
+     .addField("#email", [  
      {
         rule: "required",
         errorMessage: "El correo es obligatorio"
      },
      {
-        rule: "email"
-        errorMessage: "El correo no es valido"
-     } 
+        rule: "email",
+        errorMessage: "El correo no es válido"
+     }
      
      ]);
 });
