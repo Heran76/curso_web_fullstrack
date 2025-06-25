@@ -10,7 +10,7 @@ Desarrollo web con HTML, CSS, JavaScript, JSON, Node, TypeScript, Angular, MEAN 
 ## 🚀 Javascript.
 De 0 hasta la ultima version ECMAScript 2024 , la versión 15 y actual, se lanzó en junio de 2024.
 
-## 🚀 Javascript.
+## 🚀 typescript.
 De 0 hasta la última versión (actualmente 5.5, lanzada en junio de 2024), TypeScript ha evolucionado para ofrecer un tipado estático robusto sobre JavaScript, mejorando la productividad y mantenibilidad del código.
 
 
