@@ -38,7 +38,7 @@ var __setFunctionName = (this && this.__setFunctionName) || function (f, name, p
     return Object.defineProperty(f, "name", { configurable: true, value: prefix ? "".concat(prefix, " ", name) : name });
 };
 function DecoradorTurbo(target) {
-    console.log("El coche tiene un turbo", target.name);
+    console.log("El coches está equipado con un turbo", target.name);
 }
 let Coche = (() => {
     let _classDecorators = [DecoradorTurbo];
@@ -47,7 +47,7 @@ let Coche = (() => {
     let _classThis;
     var Coche = _classThis = class {
         constructor() {
-            console.log("El coche está arrancado!!!");
+            console.log("Coche arrancado");
         }
     };
     __setFunctionName(_classThis, "Coche");
