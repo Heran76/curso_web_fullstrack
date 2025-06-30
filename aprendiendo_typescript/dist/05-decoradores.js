@@ -46,8 +46,19 @@ function DecoradorConMensaje(mensaje) {
         console.log(`Mi ${target.name} te manda este mensaje: ${mensaje}`);
     };
 }
+function AgregarMetodo(target) {
+    target.prototype.acelerar = function () {
+        console.log("acelerando desde un método extra en un decorador");
+    };
+}
+/*
+interface Coche {
+    acelerar: ()=> void;
+}
+*/
+//@DecoradorConMensaje("El Coche mas pontente de las galaxia")
 let Coche = (() => {
-    let _classDecorators = [DecoradorConMensaje("El Coche mas pontente de las galaxia")];
+    let _classDecorators = [AgregarMetodo];
     let _classDescriptor;
     let _classExtraInitializers = [];
     let _classThis;
@@ -67,3 +78,4 @@ let Coche = (() => {
     return Coche = _classThis;
 })();
 let miCoche = new Coche();
+miCoche.acelerar();
