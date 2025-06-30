@@ -1,4 +1,5 @@
 "use strict";
+//decorador basico y decoradores con parametros
 var __esDecorate = (this && this.__esDecorate) || function (ctor, descriptorIn, decorators, contextIn, initializers, extraInitializers) {
     function accept(f) { if (f !== void 0 && typeof f !== "function") throw new TypeError("Function expected"); return f; }
     var kind = contextIn.kind, key = kind === "getter" ? "get" : kind === "setter" ? "set" : "value";
@@ -40,8 +41,13 @@ var __setFunctionName = (this && this.__setFunctionName) || function (f, name, p
 function DecoradorTurbo(target) {
     console.log("El coches está equipado con un turbo", target.name);
 }
+function DecoradorConMensaje(mensaje) {
+    return function (target) {
+        console.log(`Mi ${target.name} te manda este mensaje: ${mensaje}`);
+    };
+}
 let Coche = (() => {
-    let _classDecorators = [DecoradorTurbo];
+    let _classDecorators = [DecoradorConMensaje("El Coche mas pontente de las galaxia")];
     let _classDescriptor;
     let _classExtraInitializers = [];
     let _classThis;
