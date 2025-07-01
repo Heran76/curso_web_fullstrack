@@ -1,5 +1,10 @@
+
 class Gato {
-  constructor(nombre, raza, color) {
+    public nombre: string;
+    public raza: string;
+    public color:string;
+  
+    constructor(nombre, raza, color) {
     this.nombre = nombre;
     this.raza = raza;
     this.color = color;
@@ -13,11 +18,11 @@ class Gato {
     console.log(`${this.nombre} ha saltado`);
   }
 
-  getRaza(){
+  getRaza():string{
    return this.raza
   }
 
-  setRaza(raza){
+  setRaza(raza:string){
     this.raza = raza;
   }
 
