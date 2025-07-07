@@ -16,4 +16,4 @@ De 0 hasta la última versión (actualmente 5.5, lanzada en junio de 2024), Type
 
 ## Documentación
 
-`HTML,CSS,Metedologia BEM` `js` `Variables` `Tipos de Datos` `Operadores` `Condicionales` `Bucles` `Funciones y métodos` `Arrays` `Document Object Model - DOM` `Eventos` `Programación Orienteda a objetos - POO` `Fechas y Matemáticas` `LocalStorage` `typescript`
+`HTML,CSS,Metedologia BEM` `js` `Variables` `Tipos de Datos` `Operadores` `Condicionales` `Bucles` `Funciones y métodos` `Arrays` `Document Object Model - DOM` `Eventos` `Programación Orienteda a objetos - POO` `Fechas y Matemáticas` `LocalStorage` `typescript``Angular`
