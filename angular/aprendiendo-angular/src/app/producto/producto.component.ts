@@ -6,5 +6,8 @@ import {Component} from "@angular/core";
  styleUrl:"producto.component.css"
 })
 export class ProductoComponent{
-
+      constructor(){
+        console.log("Se ha cargado el componente")
+        alert("Hola")
+      }
 }
