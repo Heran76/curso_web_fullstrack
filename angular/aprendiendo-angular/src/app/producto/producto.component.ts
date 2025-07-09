@@ -6,8 +6,15 @@ import {Component} from "@angular/core";
  styleUrl:"producto.component.css"
 })
 export class ProductoComponent{
-      constructor(){
-        console.log("Se ha cargado el componente")
-        alert("Hola")
-      }
+      public nombre: string;
+      public marca: string;
+      public precio: number;
+  
+     constructor(){
+         this.nombre = "Portatil"
+         this.marca="Asus"
+         this.precio=4848
+      
+    
+     }
 }
