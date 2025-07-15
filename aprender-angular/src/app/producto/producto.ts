@@ -1,7 +1,10 @@
 import { Component } from "@angular/core";
+import { UsuarioComponent } from "../usuario/usuario.component";
+import { PeliculasComponent } from "../peliculas/peliculas.component";
 
 @Component({
     selector:"producto",
+    imports:[UsuarioComponent, PeliculasComponent],
     templateUrl:"producto.html",
     styleUrl:"producto.css"
 })

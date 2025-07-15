@@ -2,6 +2,9 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Producto } from './producto/producto';
 
+
+
+
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet, Producto],
