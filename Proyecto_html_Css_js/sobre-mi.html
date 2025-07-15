@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css"/>
+    <link rel="stylesheet" href="./assets/css/reset.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    
+    
+
+    <script src="./assets/js/main.js" defer></script>
+    <script src="./assets/js/login.js"defer></script>
+    <script src="./assets/js/accordion.js" defer></script>
+</head>
+<body>
+<div class="layout">
+
+        <header class="layout__header">
+             <div class="header__logo">
+                <h1 class="logo__text">HeranDev</h1>
+             </div>
+
+             <nav class ="header__nav">
+                <ul class="nav__list">
+                    <li class="list__item">
+                        <a href="index.html" class="list_link">Inicio</a>
+                    </li>
+                    <li class="list__item">
+                        <a href="reloj.html" class="list_link">Reloj</a>
+                    </li>
+                    <li class="list__item">
+                        <a href="sobre-mi.html" class="list_link">Sobre Mi</a>
+                    </li>
+                    <li class="list__item">
+                        <a href="contacto.html" class="list_link">Contactar</a>
+                    </li>
+
+                </ul>
+             </nav>
+
+        </header>
+        
+      
+        
+        <main class="layout__main">
+           
+        <!-- aquí van el acordeon -->
+        <h2 class="main__title">Sobre mi</h2> 
+        <div class="main__accordion">
+            
+            <article class="accordion__collapse">
+                <header class="collapse__header">
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <i class="fa-solid fa-chevron-up"></i>
+                    <p class="collapse__title">¿Quienes somos?</p>
+                </header>
+                <div class="collapse__body">
+                    <p class="collapse__text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi non quam ea ab porro aliquid facere laborum, amet ex laboriosam eius illum quo sed. Nulla dolor consectetur eum hic nam.
+                    </p>
+                </div>
+            </article>
+
+            <article class="accordion__collapse">
+                <header class="collapse__header">
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <i class="fa-solid fa-chevron-up"></i>
+                    <p class="collapse__title">¿Nuestros servicios?</p>
+                </header>
+                <div class="collapse__body">
+                    <p class="collapse__text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi non quam ea ab porro aliquid facere laborum, amet ex laboriosam eius illum quo sed. Nulla dolor consectetur eum hic nam.
+                    </p>
+                </div>
+            </article>
+
+            <article class="accordion__collapse">
+                <header class="collapse__header">
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <i class="fa-solid fa-chevron-up"></i>
+                    <p class="collapse__title">¿Que dicen nuestros clientes?</p>
+                </header>
+                <div class="collapse__body">
+                    <p class="collapse__text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi non quam ea ab porro aliquid facere laborum, amet ex laboriosam eius illum quo sed. Nulla dolor consectetur eum hic nam.
+                    </p>
+                </div>
+            </article>
+       
+        </div>
+            
+        </main>
+        
+        <aside class="layout_aside">
+            <header class="aside__header">
+                <div class="header__container-title">
+                    <h3 class="header__title">
+                        <span class="title__span">¿Quién Soy?</span>
+                    </h3>
+                </div>
+                <div class="header__container-img">
+                    <img class="header__img" src="./assets/img/caracol.jpg" alt="foto">
+                </div>
+                <p class="header__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, nisi? Doloribus, temporibus vel neque sapiente error in debitis architecto modi rerum ut ipsa voluptates reiciendis illum. Deserunt ipsa quos vel!
+                </p>
+            </header>
+            <form class="aside__form">
+                <div class="login__container-title">
+                    <h3 class="login__title">
+                        <span class="title__span">Identifícate</span>
+                    </h3>
+                </div>
+
+                <div class="login__form-group">
+                    <label class="login__label" for="name">Nombre:</label>
+                    <input type="text" id="name" class="login_input" requiered />
+                </div>
+
+                <div class="login__form-group">
+                    <label class="login__label" for="email">Correo:</label>
+                    <input type="email" id="email" class="login_input" requiered />
+                </div>
+
+                <div class="login__form-group">
+                    <label class="login__label" for="pass">Contraseña:</label>
+                    <input type="password" id="pass" class="login_input" requiered />
+                </div>
+
+                <input type="submit" value="Entrar" class="login_submit"/>
+
+            </form>
+            <div class="aside__data aside__data--hide">
+                  <p class="data__text">
+                      Bienvenido, <span class="data__name"></span>
+                  </p>
+                  <button class="data__logout">Cerrar sesión</button>
+            </div>
+        </aside>
+</div>
+<footer class="footer">
+        <p class="footer__text">Todos los derechos reservados &copyHeranDev 2025</p>
+        <p class="footer__top">ir arriba</p>
+</footer>
+    <div class="themes">
+        <div class="theme__green"></div>
+        <div class="theme__red"></div>
+        <div class="theme__blue"></div>
+    </div>
+</body>
+</html>
