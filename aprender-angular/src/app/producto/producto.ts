@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 import { UsuarioComponent } from "../usuario/usuario.component";
 import { PeliculasComponent } from "../peliculas/peliculas.component";
 
@@ -9,7 +9,7 @@ import { PeliculasComponent } from "../peliculas/peliculas.component";
     styleUrl:"producto.css"
 })
 
-export class Producto{
+export class Producto implements OnInit{
     
     public nombre: string;
     public marca: string;
@@ -21,6 +21,11 @@ export class Producto{
         this.marca ="Asus";
         this.precio= 4948;
         console.log("Se ha cargado el componente");
-        alert("Hola")
+        //alert("Hola")
     }
+
+    ngOnInit(){
+        console.log("El componente sea cargado")
+    }
+
 }
