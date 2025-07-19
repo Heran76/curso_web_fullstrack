@@ -20,7 +20,7 @@ export class Producto implements OnInit{
         this.nombre = "PC Portatil";
         this.marca ="Asus";
         this.precio= 4948;
-        console.log("Se ha cargado el componente");
+        console.log("Esta cargado el componente");
         //alert("Hola")
     }
 
