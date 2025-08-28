@@ -1,7 +1,8 @@
 import { Component } from "@angular/core";
-
+import { UsuariosComponent } from "../usuarios/usuarios.component";
 @Component({
     selector:"mi-producto",
+    imports:[UsuariosComponent],
     templateUrl:"producto.component.html",
     styleUrl:"producto.componet.css"
 })
