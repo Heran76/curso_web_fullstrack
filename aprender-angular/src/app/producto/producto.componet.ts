@@ -19,4 +19,15 @@ export class ProductoComponent{
         this.descripcion="Es un ordenador Apple";
         this.precio=2000;
     }
-}
+
+    ngOnInit(){
+        console.log("Hoock cargado");
+     }   
+     ngDoCheck(){
+        console.log("Cambiar realizado");
+     }
+     cambiarNombre(){
+        this.marca = "MacBook Pro"
+     }
+    
+    }

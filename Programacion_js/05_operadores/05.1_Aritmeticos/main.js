@@ -9,12 +9,16 @@ let division = num1 / num2;
 let resto = num1 % num2;
 let potencia = num1 ** 2;
 
+let a = 5;
+let b = 3;
+
 console.log("Suma = " + suma);
 console.log("Resta = " + resta);
 console.log("Multiplicar = " + multi);
 console.log("division = "+ division);
 console.log("resto = "+ resto);
 console.log("Potencia = "+ potencia);
+
 
 
 
