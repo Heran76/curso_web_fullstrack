@@ -17,7 +17,9 @@ export class PortfolioComponent {
     {id:4, nombre:"Python"}
   ];
 
-
+/*ngOnInit(){
+  this.lenguajes = [];
+}*/
   cambiarRedirigir(){
     if(this.redirigir == false){
       this.redirigir =true;

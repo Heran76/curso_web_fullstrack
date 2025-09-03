@@ -13,13 +13,14 @@
 
 <button (click)="cambiarRedirigir()">Cambiar enlace</button>
 <hr>
-<h3>Recorrer un array con for</h3>
-<h3>Recorrer un array con for</h3>
+
 <h3>Recorrer un array con for</h3>
 <ul>
     @for (i of lenguajes; track i.id;
         let indice = $index , contador = $count, par = $even  ) {
         <li>{{i.nombre}} {{contador}}</li>
+    }@empty{
+        <li>Listado esta vacio</li>
     }
 </ul>
 
