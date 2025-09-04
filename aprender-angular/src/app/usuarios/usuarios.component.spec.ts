@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { UpperCasePipe, LowerCasePipe, DatePipe } from '@angular/common';
 import { UsuariosComponent } from './usuarios.component';
 
 describe('UsuariosComponent', () => {

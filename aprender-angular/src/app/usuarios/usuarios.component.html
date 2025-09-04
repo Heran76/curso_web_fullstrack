@@ -9,5 +9,9 @@
 }
 
 @let pais = "España";
-@let saludo = "Hola mundo desde "+pais;
+@let saludo = "Hola mundos desde "+pais;
 <h4>{{saludo}}</h4>
+
+<P>{{pais | uppercase}}</P>
+<hr>
+{{fecha | date:'dd/MM/yyyy'}}
