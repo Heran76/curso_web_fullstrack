@@ -13,7 +13,7 @@ usuario = {
   nombre: "Antonio",
   apellido: "Heredia",
   edad: 44,
-  rol: "User"
+  rol: "admin"
 };
  
 }
