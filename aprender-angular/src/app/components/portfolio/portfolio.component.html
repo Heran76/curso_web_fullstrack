@@ -1,0 +1,27 @@
+<p>portfolio works!</p>
+<p>visita mi porfolio {{web}} </p>
+
+<a [href]="web" target="_blank " [class.exite]= "web">ir al porfolio</a>
+<hr>
+<H2>ESTRUCTURA PARA CONTROL DE FLUJO</H2>
+
+@if(redirigir == true){
+    <p>El enlace a {{web}}es correcto</p>
+}@else{
+    <p>EL enlace es incorrecto !!</p>
+}
+
+<button (click)="cambiarRedirigir()">Cambiar enlace</button>
+<hr>
+
+<h3>Recorrer un array con for</h3>
+<ul>
+    @for (i of lenguajes; track i.id;
+        let indice = $index , contador = $count, par = $even  ) {
+        <li>{{i.nombre}} {{contador}}</li>
+    }@empty{
+        <li>Listado esta vacio</li>
+    }
+</ul>
+
+
