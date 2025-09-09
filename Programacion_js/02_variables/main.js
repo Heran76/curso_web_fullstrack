@@ -4,7 +4,7 @@
    let  manera  moderna funciona en bloque.
    const constante.
 */
-
+//no puede empezar por número
 var zapatos = "tacones";
 let zapatilla = "Bambas";
 const pi = 3.14; // no cambia de valor

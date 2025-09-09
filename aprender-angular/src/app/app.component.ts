@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import{VentasComponent} from './ventas/ventas.component';
-import { PortfolioComponent } from './portfolio/portfolio.component';
-import { UsuariosComponent } from "./usuarios/usuarios.component";
-import{ProductoComponent} from './producto/producto.component';
-import { DirectivasComponent } from './directivas/directivas.component';
+import{VentasComponent} from './components/ventas/ventas.component';
+import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { UsuariosComponent } from "./components/usuarios/usuarios.component";
+import{ProductoComponent} from './components/producto/producto.component';
+import { DirectivasComponent } from './components/directivas/directivas.component';
 @Component({
   selector: 'app-root',
   imports: [VentasComponent, PortfolioComponent, UsuariosComponent, ProductoComponent, DirectivasComponent],
