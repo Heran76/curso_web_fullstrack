@@ -4,10 +4,11 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { UsuariosComponent } from "./components/usuarios/usuarios.component";
 import{ProductoComponent} from './components/producto/producto.component';
 import { DirectivasComponent } from './components/directivas/directivas.component';
-import{ config } from './models/config';  
+import{ config } from './models/config'; 
+import { CineComponent } from './components/cine/cine.component';  
 @Component({
   selector: 'app-root',
-  imports: [VentasComponent, PortfolioComponent, UsuariosComponent, ProductoComponent, DirectivasComponent],
+  imports: [VentasComponent, PortfolioComponent, UsuariosComponent, ProductoComponent, DirectivasComponent,CineComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
