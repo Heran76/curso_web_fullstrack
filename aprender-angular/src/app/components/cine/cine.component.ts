@@ -1,15 +1,19 @@
 import { Component } from '@angular/core';
 import { pelicula } from '../../models/pelicula';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-cine',
-  imports: [],
+  imports: [FormsModule], 
   templateUrl: './cine.component.html',
   styleUrl: './cine.component.css'
 })
 export class CineComponent {
     public titulo = "string";
     public peliculas: Array<pelicula>;
+    
+    //Trabajando con formularios.
+    public mi_pelicula:string ="";
 
     constructor(){
         this.titulo = "Componente de cine";
