@@ -9,8 +9,15 @@
 //Two way data binding
 <h1>Formularios y Two data binding</h1>
 <input type="text" [(ngModel)]="mi_pelicula" />
+<button (click)="Showpelicula()">Mostrar pelicula</button>
+<button (click)="addPelicula()">Añadir pelicula</button>
 <P>
    La pelicula es:
    <strong>{{mi_pelicula}}</strong>
 </P>
-
+<h3>Pelis Simples</h3>
+<ul>
+   @for(pelicula of pelisSinDatos; track pelicula){
+        <li>{{pelicula}}</li>
+   }
+</ul>

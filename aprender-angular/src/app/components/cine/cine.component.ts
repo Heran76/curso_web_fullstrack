@@ -14,6 +14,7 @@ export class CineComponent {
     
     //Trabajando con formularios.
     public mi_pelicula:string ="";
+    public pelisSinDatos: string[]=[];
 
     constructor(){
         this.titulo = "Componente de cine";
@@ -27,5 +28,11 @@ export class CineComponent {
     }
     ngOnInit(){
       console.log(this.peliculas);
+    }
+    Showpelicula(){
+      alert(this.mi_pelicula);
+    }
+    addPelicula(){
+      this.pelisSinDatos.push(this.mi_pelicula);
     }
 }
