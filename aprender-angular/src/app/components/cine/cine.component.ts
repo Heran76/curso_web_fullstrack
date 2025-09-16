@@ -33,6 +33,9 @@ export class CineComponent {
       alert(this.mi_pelicula);
     }
     addPelicula(){
-      this.pelisSinDatos.push(this.mi_pelicula);
+     
+      let identificador = this.peliculas[this.peliculas.length -1].id +1;
+      let  nuevaPelicula = new pelicula(identificador, this.mi_pelicula);
+      this.peliculas.push(nuevaPelicula);
     }
 }
